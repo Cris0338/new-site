@@ -1,0 +1,8 @@
+/* Header a Settings*/
+.header a:link { text-decoration: none; }
+.header a:visited { text-decoration: none; }
+.header a:hover { text-decoration: none; }
+.header a:active { text-decoration: none; }
+.header a {color: antiquewhite;}
+
+<a href="index.html"><h1 style="display: inline;">Christian Nucida - Website Creator - Only <q>html & css</q> site</a></h1>

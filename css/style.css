@@ -1,0 +1,252 @@
+/* General Settings*/
+
+html {
+    background-color: #252525;
+    color: antiquewhite;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Body Margin*/
+body {
+    margin: 0;
+}
+
+/* Header container*/
+.header {
+    position: relative;
+    background-color: #252525;
+    margin-top: 15px;
+    margin-left: 1.8%;
+    margin-right: 1.8%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 8% 92% 9% 91% / 89% 8% 92% 11%;
+    text-align: center;
+    box-shadow: 2px 1px 3px antiquewhite;
+}
+
+/* Colored Border */
+.header:before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background-image: linear-gradient(to right, #4285f4, #DB4437, #F4B400, #0F9D58);
+    border-radius: inherit;
+    box-shadow: 1px 0.5px 5px antiquewhite;
+}
+
+/* Header a Settings*/
+.header a:link { text-decoration: none; }
+.header a:visited { text-decoration: none; }
+.header a:hover { text-decoration: none; }
+.header a:active { text-decoration: none; }
+.header a {color: antiquewhite;}
+
+/* Style the top navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #303030;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    color: antiquewhite;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+/* Column container */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Main column */
+.main {
+    flex: 80%;
+    height: 85vh;
+    background-color: #353535;
+    padding: 20px;
+    overflow-y: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.main::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.main {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+/*Article Box*/
+.divhome {
+    height: 400px;
+    width: 85%;
+    border: solid 2px;
+    margin: auto;
+    margin-top: 1%;
+    border-radius: 8% 92% 9% 91% / 89% 8% 92% 11%;
+    overflow-y: scroll;
+    overflow-wrap: normal;
+    box-shadow: 1px 0.5px 5px antiquewhite;
+
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.divhome::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.divhome {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+/*Article Settings*/
+.divhome>article {
+    margin: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 2%;
+    text-align: justify;
+}
+
+/*Article Img Settings*/
+.divhome>article>img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 4%;
+    margin-right: 5%;
+    margin-bottom: 1.5%;
+    border-radius: 8% 92% 9% 91% / 89% 8% 92% 11%;
+
+}
+
+/*Article H2 Settings*/
+.divhome h2 {
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+}
+
+/*Article p Settings*/
+.divhome p {
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+}
+
+/*Article Borders Elternance Color*/
+.divhome:nth-child(4n+1) {
+    border-color: #DB4437;
+}
+
+.divhome:nth-child(4n+2) {
+    border-color: #F4B400;
+}
+
+.divhome:nth-child(4n+3) {
+    border-color: #0F9D58;
+}
+
+.divhome:nth-child(4n+4) {
+    border-color: #4285F4;
+}
+
+/* Sidebar/right column */
+.side {
+    flex: 20%;
+    background-color: #353535;
+    padding: 20px;
+    text-align: center;
+
+}
+
+/* Side h3 Settings*/
+.side h3 {
+    padding: 20px;
+    margin: auto;
+}
+
+/* Side p Settings*/
+.side p {
+    text-align: left;
+    padding: 20px;
+    margin: auto;
+    text-size-adjust: 80%;
+}
+
+/* Profile Photo Settings */
+#imgprofile {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 1px 0.5px 5px antiquewhite;
+        
+}
+
+/*Footer Settings */
+
+/*Footer H3 Settings*/
+.footer h3 {
+    margin-left: 3%;
+}
+
+/*Footer w3 logo */
+#w3 {
+    padding-left: 3%;
+}
+
+/*Footer p Settings*/
+.footer address {
+    text-align: right;
+    margin-right: 3%;
+}
+
+/*Footer a Settings*/
+.footer a {
+    color: antiquewhite;
+}
